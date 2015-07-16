@@ -1,0 +1,18 @@
+<div style="margin:20px auto;width:60%;text-align:left;padding:0px;">
+<img style="margin:0px auto 10px auto;width:400px;height:40px;" src="design/image/logo_email.png" alt="logo_email.png">
+<div style="text-align:left;padding-bottom:10px;">Hello,</div>
+<div style="text-align:left;padding:10px;"><i>This message was sent automatically from Antaris Legacy.<br>
+
+If you have not registered yourself, please contact us by sending us the following IP address : {REGISTERIP}.</i><br><br>
+
+<span style="color:#008000;">Your subscription on the Horizon universe (1.1) was taken into consideration.</span>
+
+<br><b>To complete this entry</b>, simply activate your account by clicking on the following link :<br>
+
+{VERTIFYURL}
+
+<br><br>
+Here is the information about your account :<br><b>Username :</b> {USERNAME}<br><b>Email :</b> {EMAIL}<br><b>Password :</b> {PASSWORD}<br><b>Name of your planet :</b> {PLANETNAME}<br></div>
+<div style="text-align:left;padding-top:10px;">If you want to delete all your personal data, please contact us at the following address : (EMAIL).<br>
+Cordialement.</div>
+</div>

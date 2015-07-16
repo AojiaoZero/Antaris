@@ -1,0 +1,18 @@
+<div style="margin:20px auto;width:60%;text-align:left;padding:0px;">
+<img style="margin:0px auto 10px auto;width:400px;height:40px;" src="design/image/logo_email.png" alt="logo_email.png">
+<div style="text-align:left;padding-bottom:10px;">Bonjour,</div>
+<div style="text-align:left;padding:10px;"><i>Ce message a été envoyé automatiquement, de la part de Antaris Legacy..<br>
+
+Si vous vous n'êtes pas inscrit de vous-même, veuillez nous contacter en nous transmettant l'adresse IP suivante : {REGISTERIP}.</i><br><br>
+
+<span style="color:#008000;">Votre inscription sur l'univers Horizon (1.1) a été prise en considération.</span>
+
+<br><b>Pour terminer cette inscription</b>, il suffit d'activer votre compte en cliquant sur le lien suivant : :<br>
+
+{VERTIFYURL}
+
+<br><br>
+Voici les informations concernant votre compte :<br><b>Pseudo :</b> {USERNAME}<br><b>Adresse email :</b> {EMAIL}<br><b>Mot de passe :</b> {PASSWORD}<br><b>Nom de votre planète :</b> {PLANETNAME}<br></div>
+<div style="text-align:left;padding-top:10px;">Si vous souhaitez supprimer toutes vos données personnelles, veuillez nous contacter à l'adresse suivante : (EMAIL).<br>
+Cordialement.</div>
+</div>

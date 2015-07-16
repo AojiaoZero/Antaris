@@ -1,0 +1,1 @@
+var Commerce={afficherDetailEchange:function(a){var e=$("tr#detail_echange_"+a);e.hasClass("no_display")?e.removeClass("no_display").addClass("display"):e.hasClass("display")&&e.removeClass("display").addClass("no_display")}};

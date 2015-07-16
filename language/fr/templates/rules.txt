@@ -1,0 +1,49 @@
+<ul id="rules">
+<li>
+<h1> 1 . Comptes </h1>
+<p> Le propriétaire d`un compte est toujours le propriétaire de l`adresse courriel associée au compte.
+Un compte ne peut jamais être joué par plus d`une personne, la seule exception est en cas de "sitting" de compte.
+Un échange de compte au sein d`un univers doit être fait en coopération avec le support.
+Un compte ne peut changer de propriétaire que tous les 15 jours. Le nouveau propriétaire doit changer l`adresse courriel associée avec le compte qu`il vient d`obtenir au cours des 12 heures suivant cette opération</p>
+</li>
+
+<li>
+<h1> 1 . Multi-Comptes </h1>
+<p> 
+Chaque joueur n`a le droit de posséder qu`un seul compte par univers.
+Si deux comptes ou plus sont joués de manière régulière, occasionnelle ou permanente depuis le même accès internet (par exemple dans des écoles, universités ou cyber-cafés), il est conseillé de prévenir les opérateurs de jeu de cette situation par le biais d'un ticket support </p>
+</li>
+
+<li>
+		<h1>2. Pushing</h1>
+		<p>Il est interdit à tout compte de profiter de manière injuste d`un joueur ayant moins de points, au niveau des ressources.
+On parle de pushing quand un joueur livre ou doit livrer des ressources à un joueur ayant plus de points, sans contrepartie visible.
+Toute transaction doit être conclue dans un intervalle de 72h.
+Pour les cas particuliers (primes...) un opérateur de jeu doit être prévenu par le biais du système de support </p>
+	</li>
+	<li>
+		<h1>3. Bashing</h1>
+		<p>Il est interdit d`attaquer la lune ou la planète d`un joueur actif plus de 6 fois en 24 heures. Cette règle est aussi valable pour les missions de destruction de lune. Les attaques avec des sondes d`espionnage et des missiles interplanétaires ne sont pas concernées par cette règle concernant l`acharnement ("bashing").
+Le bashing d`un joueur n`est autorisé dans le cadre de guerres entre alliances.</p>
+	</li>
+	<li>
+		<h1>4. Bugusing</h1>
+		<p>Utiliser un bug ou une erreur de programmation de façon intentionnelle afin d`en tirer un profit personnel, ou ne pas signaler un bug est strictement interdit.
+Utiliser un programme comme interface entre le joueur et son compte est prohibé. Toute autre forme d`informations générées automatiquement dans le but d`avantager un groupe de joueurs est également interdit.</p>
+	</li>
+	<li>
+		<h1>5. Forbidden content</h1>
+		<p>Toutes sortes de menaces IRL envers un joueur, un membre de l`équipe, un administrateur, sont interdites..
+<br />En plus, Envoyer des message spam ou faire de la publiciter pour votre jeu est interdit aussi.</p>
+	</li>
+	<li>
+		<h1>6. Wars</h1>
+		<p>After the Leaders of the alliances both agree to the war, it is officially on. And will continue until one of the alliances cancels it. To officially cancel the war they need to cancel the war pact from in-game, and announce it in the thread they started initially.
+While the war is on, the bashing rule between the alliances involved does not count. Meaning any members belonging to the alliances in said war can be attack an infinite amount of times with out punishment.
+If either alliance gives up and cancels the war, the bashing rule will take effect again, and any members breaking it after the war has ended with be punished with a 1 day ban, More if the degree of attack is extremely high.
+<br />
+If the opposing alliance has a fleet in flight. And the war is canceled before they arrive. They will NOT be punished for that attack. But any fleet sent after the war cancellation will count toward the bashing rule.
+<br /><br />For New Wars one of the leaders need to create a new thread in the war/diplomacy section.
+There they can set any specific rules or terms, they want for the war. Any rules set in place, and are agreed to by the opposing alliance must be fallowed, and must not contradict any rules set here.</p>
+	</li>
+</ul>

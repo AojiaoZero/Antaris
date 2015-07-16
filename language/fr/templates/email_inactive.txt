@@ -1,0 +1,14 @@
+Hello {USERNAME},
+
+votre Empire attends votre prochain ordre avec impatience !!! Vous avez ete absent trop longtemps.
+
+Pour faciliter votre retour. votre compte joueur se vera crediter de 100.000 MN pour vous aider ˆ revenir. Pour cela, il suffit d'utiliser le code suivant dans le jeu: WEL-BACK
+
+
+
+Serveur: Taurus
+
+{GAMENAME} Team
+
+
+http://www.uni-fighters.com 

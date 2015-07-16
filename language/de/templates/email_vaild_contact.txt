@@ -1,0 +1,11 @@
+<div style="margin:20px auto;width:60%;text-align:left;padding:0px;">
+<img style="margin:0px auto 10px auto;width:400px;height:40px;" src="design/image/logo_email.png" alt="logo_email.png">
+<div style="text-align:left;padding-bottom:10px;">Bonjour,</div>
+<div style="text-align:left;padding:10px;"><i>Ce message a été envoyé à partir de la page de contact d'Antaris Legacy.<br>
+
+<br><br>
+<b>Nom :</b> {NAME}<br><b>Prenom :</b> {FIRSTNAME}<br><b>Adresse email :</b> {EMAIL}<br><b>Sujet :</b> {SUBJECT}<br><b>Adresse IP de provenance :</b> {IP}<br><br>
+<b>Message :</b><br>
+{MESSAGE}
+</div>
+</div>

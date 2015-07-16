@@ -1,0 +1,92 @@
+[2015-04-18 15:04 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2015-04-18 15:04 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sat, 18 Apr 2015 15:04:54 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=v39EqhAqHu_LPniV72HeR4J5FRE9KTvlkJbquzX8RwmQOZ45wNdPyeuNHqXDkZe1VUpgRgwSAG-dwIjD4DCm7979RaTPby_UgOWwSAYnkLhnzfOygMk3epccahg2tQ7HP8psSUgvpbH87uDS_ERLQc0X-b8hcsP8V6xc8r3Hm4Bev3phSw-ticQszy0eS4YzCJ30hCt7BtoWW80MRspM8xG9AV6cd4b9M9yXoqBufZn_vZg_Rk6CKDYXVZS9l9-XtyTiQV1WwvPCLnI9jDVWgxvEPS_v1s_5kbqGyxf-hJfkGylTteonSfyA4o3Lj2M63xEbeK0iJPy0FyvIIOGky1hUQ_2BOiXiIlUdBv76Xm6oPPycZkuQURGZ11iQAPjNJI6Sw_dHwGEnXCuj4RTJEr8co3sPL_AZhliUjAxQkgVcD2nL9YuI6Rg_AKu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 15-Apr-2025 15:04:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 17-Apr-2017 15:04:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.148.1429369494403540; path=/; expires=Mon, 10-Apr-45 15:04:54 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2524066389; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1429369494398043; path=/; expires=Mon, 10-Apr-45 15:04:54 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sat, 18-Apr-2015 15:34:54 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+[2015-04-18 15:05 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2015-04-18 15:05 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sat, 18 Apr 2015 15:05:12 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=3U-q12CgBH-sjjkeWkHL1aCCk9WpmBZ-e_0pyGGgnN_h7eSSAK6DQOgtRSQNfc51xxUYdIqRR8A6ml00AH5TPYCOE-ALFXofggGrAjEBNtylwuNwB7RODSwCQKKyNajBBaJ68a3iQ9-eWxmcRtfb4xGrp9TNsFO5VEXrOn7C31MeBmjmPIZjfdCy8taY90lzVmXEnkK0nQ86GVnVXbEXyUD-sukZ_0wAyzDtzGWZ295Az9fa16xa7aT6Im8H7QIZfxKSQ5v4LahKis9HzVJ_RDLRrAFqkUmynALXz9G_hiiFVu3Lzrj1z8HOtPNeXjLhEsgKKo0nzt3dFquZIwLkfv4aOiIaRt9gJOlzCIfY5ycWv95aOsldfPbvKuXTN2Hb6BiaXJCWrUN83fZAGa7SeU2fNGdb34W7wSAKDXvB4YxjW1rfqT7EGArjOhy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 15-Apr-2025 15:05:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 17-Apr-2017 15:05:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.147.1429369512184422; path=/; expires=Mon, 10-Apr-45 15:05:12 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2826056277; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1429369512178550; path=/; expires=Mon, 10-Apr-45 15:05:12 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sat, 18-Apr-2015 15:35:12 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+[2015-04-18 16:03 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1088
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=29.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=MKRXYQ7W65N9U&tax=0.00&address_street=507+summer+st&payment_date=09%3A02%3A54+Apr+18%2C+2015+PDT&payment_status=Completed&charset=windows-1252&address_zip=02370&first_name=Fernando+Jo%E3o&mc_fee=1.34&address_country_code=US&address_name=Fernando+Jo%E3o+da+Silva+Fernandes&notify_version=3.8&custom=27%2C3805ec805a35ae620b94d26c116fea41&payer_status=verified&business=staff%40antaris-legacy.org&address_country=United+States&address_city=rockland&quantity=1&verify_sign=AO0TdtmvDLOwEDyTNP2jRJzURc6rATWof9CAfOScFu-1pTXdpeUYSYQJ&payer_email=ferjoasilfer%40gmail.com&txn_id=6MK77046SX1319042&payment_type=instant&last_name=da+Silva+Fernandes&address_state=MA&receiver_email=staff%40antaris-legacy.org&payment_fee=&receiver_id=S4JU9UC4R9GFC&txn_type=web_accept&item_name=20+Credit-User%28Jill%29.&mc_currency=EUR&item_number=20_credits&residence_country=BE&handling_amount=0.00&transaction_subject=27%2C3805ec805a35ae620b94d26c116fea41&payment_gross=&shipping=0.00&ipn_track_id=cb772436bd71e
+[2015-04-18 16:03 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sat, 18 Apr 2015 16:03:08 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=2FuDBC05dBIqoVmQAMbIcO35fIN8LFeTPvqr8fZvAnI_ohEURKRzeDZ917IiPWZh6M86821Er47pmxPALElBWne9qtx3BbaV356pZoRnwivfRFwYqfunoD_2maeAW-J4ZqvgVvMBUP6yZBSQaceMjdcgSRhLntlXbxDpUV7HWLGkxs8k37CUIxXj49lUyZ4XWhyxqa_hBPnVqrZlYCd7fsOvJIwjwCdR52wQd_LHwFdoatnrr9DmR8AGLHd6K0iaSHYQi1wC3lMEiUoKsjTBgCayjymiNnEF0n8JlglRURS_8nCdbyu6cVl04-x4e0VDto1YUY8J1DFdITJHDuzXxBCfCLFC5HKuaUQlBkyGcGoc4m2OSDI8sjK7m47RaJ2eioalS0V8c7k1UpRQkFoFTEJHu8QQ7No1C3bRr5EJwPnCw4IUv8ztGX5M-6G; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 15-Apr-2025 16:03:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 17-Apr-2017 16:03:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.148.1429372988227358; path=/; expires=Mon, 10-Apr-45 16:03:08 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1015034453; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1429372988218764; path=/; expires=Mon, 10-Apr-45 16:03:08 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sat, 18-Apr-2015 16:33:08 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-04-18 16:03 UTC] Verified IPN:  

@@ -1,0 +1,17 @@
+html { 
+    background : #212433 url(image/theme/defaut/fond.jpg) no-repeat top fixed; 
+	-webkit-background-size : cover;
+	-o-background-size : cover;
+	-moz-background-size : cover;
+	background-size : cover;
+    behavior : url(/design/pie.htc);  
+}
+
+body div#version_univers {  background-image : url(image/theme/defaut/version_univers.png); }
+body div#version_beta {     background-image : url(image/theme/defaut/version_beta.png); }
+body div#header { background-image : url(image/theme/defaut/header.png); }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    body div#version_univers { display : none; }
+    body div#version_beta { display : none; }
+}

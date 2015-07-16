@@ -1,0 +1,20 @@
+var AjaxMethode={fichier:function(id,type_data,fichier,variable,load,fonction){if(typeof variable=='undefined')variable='';if(typeof load=='undefined')load=false;if(typeof fonction=='undefined')fonction=function(){};var $this=this;if(load){if(ActionMethode.page_principal=='page_chargement'||id=='page_contenu')
+msg_load='<h1>Chargement de la page</h1>';else msg_load='';msg_load+='	<div id="chargement_ouvrirDiv">'+'		<img src="media/image/chargement.gif" alt="Chargement" />'+' 	Chargement ...'+'	</div>';$('#'+id).html(msg_load);ApplicationMethode.gererFicheRecrutement();}
+$.ajax({type:type_data,url:fichier,data:variable,error:function(msg){$this.fichier(id,'GET','template/erreur/404.html');},success:function(data){if(typeof $('#'+id)!='undefined'){$('#'+id).html(data);DecompteMethode.gestion();fonction();ApplicationMethode.gererFicheRecrutement();if(/<script type="text\/javascript">(.*)<\/script>/i.test(data)){/<script type="text\/javascript">(.*)<\/script>/i.exec(data);var javascript=RegExp.$1;GestionMethode.ecrireConsole('<script>'+javascript+'</script>','information');}}}});},attenteFichier:function(fichier,variable,fonction,type_data){if(typeof fonction=='undefined')fonction=function(){};if(typeof type_data=='undefined')type_data='GET';var $this=this;$.ajax({type:type_data,url:fichier,data:variable,error:function(msg){GestionMethode.ecrireConsole('attenteFichier("'+fichier+'", "'+variable+'", function(){}, "'+type_data+'") = '+msg+';','erreur');},success:function(data){if(/\[RedirigeAjax:.+\]/i.test(data)){GestionMethode.ecrireConsole('attenteFichier("'+fichier+'", "'+variable+'", function(){}, "'+type_data+'") = RedirigeAjax;','attention');}
+else fonction(data);}});},getDonneesXML:function(fichier,fonction,variable,options){if(typeof variable=='undefined')variable='';if(typeof options=='undefined')options=new Array();var $this=this;$.ajax({type:'GET',url:fichier,data:variable,dataType:'xml',error:function(msg){GestionMethode.ecrireConsole('Une erreur est survenue lors d\'un appel Ãƒ  un fichier XML :'+msg,'erreur');},success:function(xml){fonction(xml,options);}});},formAjax:function(id,fichier,variable,load,fonction){if(typeof variable=='undefined')variable='';if(typeof load=='undefined')load=false;if(typeof fonction=='undefined')fonction=function(){};var $this=this;if(load){if(id=='page_contenu')
+msg_load='<h1>Chargement de la page</h1>';else msg_load='';msg_load+='	<div id="chargement_ouvrirDiv">'+'		<img src="media/image/chargement.gif" alt="Chargement" />'+' 	Chargement ...'+'	</div>';}
+var xhr=$this.getXMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4)
+$this.ecrireFormAjax(id,xhr.responseText,fonction);else if(xhr.readyState<4){if(load){$('#'+id).html(msg_load);ApplicationMethode.gererFicheRecrutement();}}
+else
+GestionMethode.ecrireConsole('formAjax("'+fichier+'", "'+variable+'") = ProblÃƒÂ¨me d\'ÃƒÂ©xecution;','erreur');};xhr.open('POST',fichier,true);xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');xhr.send(variable);},getXMLHttpRequest:function(){var $this=this;if(window.XMLHttpRequest||window.ActiveXObject){if(window.ActiveXObject)
+try{var xhr=new ActiveXObject('Msxml2.XMLHTTP');}catch(e){var xhr=new ActiveXObject('Microsoft.XMLHTTP');}
+else
+var xhr=new XMLHttpRequest();}
+else
+{GestionMethode.ecrireConsole('getXMLHttpRequest() = Votre navigateur ne supporte pas l\'objet XMLHTTPRequest;','erreur');return null;}
+return xhr;},ecrireFormAjax:function(id,data,fonction){if(typeof fonction=='undefined')fonction=function(){};var $this=this;$('#'+id).html(data);if($('#'+id).length>0){var ToutScript=document.getElementById(id).getElementsByTagName('script');for(var i=0;i<ToutScript.length;i++)
+{var unScript=ToutScript[i];if(unScript.src&&unScript.src!='')
+{var xhr=$this.getXMLHttpRequest();xhr.open('POST',unScript.src,false);xhr.send(null);eval(xhr.responseText);}
+else
+eval(unScript.innerHTML);}}
+DecompteMethode.gestion();ApplicationMethode.gererFicheRecrutement();fonction();}};AjaxMethode.redirection=false;

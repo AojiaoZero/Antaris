@@ -1,0 +1,14 @@
+﻿[02-May-2015 00:22:34] USER ERROR: "Connection to database failed: Access denied for user 'admin_antaris'@'localhost' (using password: YES)"
+File: E:\Xampp\htdocs\antaris\includes\classes\class.Database.php | Line: 58
+URL: http://localhost/antaris/ | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(103): Database-&gt;__construct()
+#1 /index.php(35): require('E://Xampp//htdocs...')
+#2 {main}
+[02-May-2015 00:22:40] USER ERROR: "Connection to database failed: Access denied for user 'admin_antaris'@'localhost' (using password: YES)"
+File: E:\Xampp\htdocs\antaris\includes\classes\class.Database.php | Line: 58
+URL: http://localhost/antaris/ | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(103): Database-&gt;__construct()
+#1 /index.php(35): require('E://Xampp//htdocs...')
+#2 {main}

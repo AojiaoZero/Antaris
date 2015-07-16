@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liste_screen>
+    <screen numero="1" nom="Control Room">/media/image/screens/salle_de_controle.jpg</screen>
+    <screen numero="2" nom="Galaxy">/media/image/screens/capteur.jpg</screen>
+    <screen numero="3" nom="Teleportation Portal">/media/image/screens/portail.jpg</screen>
+    <screen numero="4" nom="Space center">/media/image/screens/centre_spatial.jpg</screen>
+    <screen numero="5" nom="Buildings">/media/image/screens/batiment.jpg</screen>
+    <screen numero="6" nom="Research">/media/image/screens/technologie.jpg</screen>
+    <screen numero="7" nom="Appareils spécialisés">/media/image/screens/appareil.jpg</screen>
+    <screen numero="8" nom="Defenses">/media/image/screens/defense.jpg</screen>
+    <screen numero="9" nom="Populations">/media/image/screens/population.jpg</screen>
+    <screen numero="10" nom="Bank : Evolution of the market">/media/image/screens/banque.jpg</screen>
+    <screen numero="11" nom="Universe Statistics">/media/image/screens/statistique.jpg</screen>
+    <screen numero="12" nom="Beginners missions">/media/image/screens/mission.jpg</screen>
+</liste_screen>

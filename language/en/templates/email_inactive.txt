@@ -1,0 +1,13 @@
+<div style="margin:20px auto;width:60%;text-align:left;padding:0px;">
+<img style="margin:0px auto 10px auto;width:400px;height:40px;" src="design/image/logo_email.png" alt="logo_email.png">
+<div style="text-align:left;padding-bottom:10px;">Hello,</div>
+<div style="text-align:left;padding:10px;"><i>This message was sent automatically from Antaris Legacy.<br>
+
+You havent logged in since {LASTDATE} in {GAMENAME}. If you still want to remain a member of our community, please log in with your account information, else your account will be deleted.</i><br><br>
+
+If you forgot your password, then go to {HTTPPATH} and click on  "Forgot password". You will receive within a few minutes an email with your new password.
+
+</div>
+<div style="text-align:left;padding-top:10px;">If you want to delete all your personal data, please contact us at the following address : (EMAIL).<br>
+Cordialement.</div>
+</div>
