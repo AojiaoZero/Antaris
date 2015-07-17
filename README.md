@@ -3,6 +3,11 @@ Antaris is based on 2Moons Browsergame Engine.
 
 Note: Upload this game on root folder or on xampp htdocs folder. Otherwise you will get some CSS image errors.
 
+Installation
+
+    1. Upload antaris.sql to your database
+    2. After uploaded, edit includes/config.php in order to make your game work
+
 Username: Admin
 Password: admin
 
@@ -24,5 +29,6 @@ Scratch Engine
 Code Engine
 
     PHP, MySQL, JS
+
 
 
